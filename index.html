@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fun Fact Generator - Get endless fun facts, jokes, and riddles to entertain yourself every day!">
+    <meta name="keywords" content="fun facts, jokes, riddles, random facts, daily facts, trivia, humor">
+    <meta name="author" content="Your Name">
+    <title>Fact, Joke & Riddle Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fun Fact, Joke & Riddle Generator</h1>
+
+        <div class="section">
+            <h2>💡 Random Fun Fact</h2>
+            <p id="fact">Click the button to get a fact!</p>
+            <button onclick="generateFact()">Show Me a Fact</button>
+        </div>
+
+        <div class="section">
+            <h2>😂 Random Joke</h2>
+            <p id="joke">Click the button to get a joke!</p>
+            <button onclick="generateJoke()">Show Me a Joke</button>
+        </div>
+
+        <div class="section">
+            <h2>🧩 Random Riddle</h2>
+            <p id="riddle">Click the button to get a riddle!</p>
+            <button onclick="generateRiddle()">Show Me a Riddle</button>
+            <p id="answer" class="hidden">Click below to reveal the answer!</p>
+            <button onclick="showAnswer()">Show Answer</button>
+        </div>
+
+        <!-- Hidden Ad Space (For Future Monetization) -->
+        <div class="ad-space"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
